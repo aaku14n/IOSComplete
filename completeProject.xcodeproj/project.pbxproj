@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		224E68A82529797600FBF862 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224E68A72529797600FBF862 /* AppDelegate.swift */; };
 		224E68AA2529797600FBF862 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224E68A92529797600FBF862 /* SceneDelegate.swift */; };
-		224E68AC2529797600FBF862 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224E68AB2529797600FBF862 /* ViewController.swift */; };
+		224E68AC2529797600FBF862 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224E68AB2529797600FBF862 /* MainVC.swift */; };
 		224E68AF2529797600FBF862 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224E68AD2529797600FBF862 /* Main.storyboard */; };
 		224E68B12529797800FBF862 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 224E68B02529797800FBF862 /* Assets.xcassets */; };
 		224E68B42529797800FBF862 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224E68B22529797800FBF862 /* LaunchScreen.storyboard */; };
 		224E68BF2529797900FBF862 /* completeProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224E68BE2529797900FBF862 /* completeProjectTests.swift */; };
 		224E68CA2529797900FBF862 /* completeProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224E68C92529797900FBF862 /* completeProjectUITests.swift */; };
+		224E68DF252986CA00FBF862 /* UsersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224E68DE252986CA00FBF862 /* UsersVC.swift */; };
+		224E68E525298A6B00FBF862 /* UserTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224E68E425298A6B00FBF862 /* UserTableCell.swift */; };
+		224E68F025298B1300FBF862 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224E68EF25298B1300FBF862 /* UserModel.swift */; };
+		224E68F825298D9900FBF862 /* DateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224E68F725298D9900FBF862 /* DateService.swift */; };
+		224E68FD25299D0A00FBF862 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224E68FC25299D0A00FBF862 /* NetworkService.swift */; };
+		2251A3AB252B9FA900B2959C /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2251A3AA252B9FA900B2959C /* ImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +44,7 @@
 		224E68A42529797600FBF862 /* completeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = completeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		224E68A72529797600FBF862 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		224E68A92529797600FBF862 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		224E68AB2529797600FBF862 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		224E68AB2529797600FBF862 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		224E68AE2529797600FBF862 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		224E68B02529797800FBF862 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		224E68B32529797800FBF862 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		224E68C52529797900FBF862 /* completeProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = completeProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		224E68C92529797900FBF862 /* completeProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = completeProjectUITests.swift; sourceTree = "<group>"; };
 		224E68CB2529797900FBF862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		224E68DE252986CA00FBF862 /* UsersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersVC.swift; sourceTree = "<group>"; };
+		224E68E425298A6B00FBF862 /* UserTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableCell.swift; sourceTree = "<group>"; };
+		224E68EF25298B1300FBF862 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		224E68F725298D9900FBF862 /* DateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateService.swift; sourceTree = "<group>"; };
+		224E68FC25299D0A00FBF862 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		2251A3AA252B9FA900B2959C /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +111,13 @@
 		224E68A62529797600FBF862 /* completeProject */ = {
 			isa = PBXGroup;
 			children = (
+				2251A3A9252B9F8500B2959C /* Extentions */,
+				224E68ED25298AF100FBF862 /* Model */,
+				224E68EC25298ADE00FBF862 /* Services */,
+				224E68E325298A4F00FBF862 /* View */,
+				224E68DA25297F8B00FBF862 /* Controller */,
 				224E68A72529797600FBF862 /* AppDelegate.swift */,
 				224E68A92529797600FBF862 /* SceneDelegate.swift */,
-				224E68AB2529797600FBF862 /* ViewController.swift */,
 				224E68AD2529797600FBF862 /* Main.storyboard */,
 				224E68B02529797800FBF862 /* Assets.xcassets */,
 				224E68B22529797800FBF862 /* LaunchScreen.storyboard */,
@@ -126,6 +142,48 @@
 				224E68CB2529797900FBF862 /* Info.plist */,
 			);
 			path = completeProjectUITests;
+			sourceTree = "<group>";
+		};
+		224E68DA25297F8B00FBF862 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				224E68AB2529797600FBF862 /* MainVC.swift */,
+				224E68DE252986CA00FBF862 /* UsersVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		224E68E325298A4F00FBF862 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				224E68E425298A6B00FBF862 /* UserTableCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		224E68EC25298ADE00FBF862 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				224E68F725298D9900FBF862 /* DateService.swift */,
+				224E68FC25299D0A00FBF862 /* NetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		224E68ED25298AF100FBF862 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				224E68EF25298B1300FBF862 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2251A3A9252B9F8500B2959C /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				2251A3AA252B9FA900B2959C /* ImageView.swift */,
+			);
+			path = Extentions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +316,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				224E68AC2529797600FBF862 /* ViewController.swift in Sources */,
+				224E68AC2529797600FBF862 /* MainVC.swift in Sources */,
 				224E68A82529797600FBF862 /* AppDelegate.swift in Sources */,
+				224E68FD25299D0A00FBF862 /* NetworkService.swift in Sources */,
 				224E68AA2529797600FBF862 /* SceneDelegate.swift in Sources */,
+				224E68DF252986CA00FBF862 /* UsersVC.swift in Sources */,
+				224E68F025298B1300FBF862 /* UserModel.swift in Sources */,
+				2251A3AB252B9FA900B2959C /* ImageView.swift in Sources */,
+				224E68F825298D9900FBF862 /* DateService.swift in Sources */,
+				224E68E525298A6B00FBF862 /* UserTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
